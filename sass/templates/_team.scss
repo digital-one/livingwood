@@ -1,0 +1,52 @@
+#team-list{
+	padding: 0 22px;
+	@extend .clearfix;
+	.signpost{
+		@include span-columns(4);
+		@include omega(3n);
+		min-height:510px;
+		h3{
+			@include font-size(22);
+		} 
+		figure{
+			img{
+				display: block;
+			}
+		}
+	}
+	.inset{
+		padding: 0 30%;
+		text-align: center;
+		margin: 60px 0;
+		@include span-columns(12);
+		h3{
+			@include font-size(22);
+			margin-bottom: 12px;
+		}
+		figure{
+			margin:0 auto 30px;
+			width: 25%;
+			display: block;
+			background-color: white;
+			overflow:hidden;
+			&:before{
+				content:"";
+				padding-top:100%;
+				display: block;
+			}
+		}
+	}
+}
+#testimonials{
+
+	div{
+		@include span-columns(10);
+		@include shift(1);
+		background-color: white;
+		padding: 20px 0 20px 5px;
+		margin-bottom: 15px;
+	}
+	blockquote{
+		padding-top:0;
+	}
+}

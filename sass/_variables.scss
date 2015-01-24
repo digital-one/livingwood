@@ -1,0 +1,74 @@
+//font face
+
+@font-face {
+    font-family:'AvenirLT65MediumRegular-Regular';
+    src: url('..fonts/AvenirLT65MediumRegular_gdi.eot');
+    src: url('..fonts/AvenirLT65MediumRegular_gdi.eot?#iefix') format('embedded-opentype'),
+        url('..fonts/AvenirLT65MediumRegular_gdi.woff') format('woff'),
+        url('..fonts/AvenirLT65MediumRegular_gdi.ttf') format('truetype'),
+        url('..fonts/AvenirLT65MediumRegular_gdi.svg#AvenirLT65MediumRegular-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+@font-face {
+    font-family:'AvenirLT55RomanRegular-Regular';
+    src: url('../fonts/AvenirLT55RomanRegular_gdi.eot');
+    src: url('../fonts/AvenirLT55RomanRegular_gdi.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirLT55RomanRegular_gdi.woff') format('woff'),
+        url('../fonts/AvenirLT55RomanRegular_gdi.ttf') format('truetype'),
+        url('../fonts/AvenirLT55RomanRegular_gdi.svg#AvenirLT55RomanRegular-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-2212;
+}
+@font-face {
+    font-family:'AvenirLT-Heavy';
+    src: url('../fonts/AvenirLT-Heavy_gdi.eot');
+    src: url('../fonts/AvenirLT-Heavy_gdi.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AvenirLT-Heavy_gdi.woff') format('woff'),
+        url('../fonts/AvenirLT-Heavy_gdi.ttf') format('truetype'),
+        url('../fonts/AvenirLT-Heavy_gdi.svg#AvenirLT-Heavy') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+000D-2122;
+}
+
+//neat overrides
+$max-width: 1250px; //overide neat outer container width
+$visual-grid: false; 
+$grid-columns: 12 !default;
+
+//colours
+
+$blue: #08508f;
+$light-blue: #caebfc;
+$orange: #ef402a;
+$grey: #5b5b5c;
+$dark-grey: #131313;
+$light-grey: #ebebeb;
+
+//fonts
+$avenir: "AvenirLT55RomanRegular-Regular", sans-serif;
+$avenir-medium: "AvenirLT65MediumRegular-Regular", sans-serif;
+$avenir-bold: "AvenirLT-Heavy", sans-serif;
+$oswald: "Oswald", sans-serif;
+
+//break points
+$break-xsmall: 550px; 
+$break-small: 767px; 
+$break-medium: 880px; //ipad 
+$break-large: 1220px;
+$break-xlarge: 2000px;
+$break-nav: 1130px;
+
+
+//spacing
+
+$box-padding: 30px;
+$box-padding-x2: 60px;
+$guttter: 22px;
+

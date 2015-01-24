@@ -1,0 +1,200 @@
+#header{
+	position:fixed;
+	@media screen and (max-width: $break-large) {
+		@include abs-pos(0,auto,auto,0);
+	}
+	z-index:999;
+	left:0;
+	top:0;
+	@extend %full-width;
+	#home-link{
+		@include abs-pos(-29px,auto,auto,22px);
+		width:261px;
+		height:205px;
+		display: block;
+		background: url('../images/livingwood-logo.png') left top no-repeat;
+		background-size: 100% auto;
+		@extend %ir;
+		z-index: 999;
+		@media screen and (max-width: $break-xlarge) {
+			width:220px;
+			height:173px;
+		}
+	}
+	#top{
+		height:50px;
+		background-color: lighten($light-blue,6);
+		@extend %full-width;
+		overflow: hidden;
+		@media screen and (max-width: $break-xsmall) {
+			text-align: center;
+			height: 60px !important;
+		}
+		#tel{
+			height:50px;
+			display: inline-block;
+			position: relative;
+			@include abs-pos(0,0,auto,auto);
+			//width:400px;
+			padding-right:22px;
+			background-color: $light-blue;
+			@media screen and (max-width: $break-xsmall) {
+				background-color: transparent;
+				z-index: 9999;
+				margin:0 auto;
+				position:relative;
+				padding:0;
+			}
+			font-family: $oswald;
+			font-weight: 400;
+			span{
+				display: block;
+				height:50px;
+				padding-left: 40px;
+				line-height: 50px;
+				float:right;
+				//background-image:url('../images/icon-mobile.png');
+				//background-position: 10px center;
+				//background-repeat: no-repeat;
+				@include font-size(22);
+				color: $blue;
+				&:before{
+					content:"";
+					width:19px;
+					height:35px;
+					display: block;
+					@include abs-pos(50%,auto,auto,10px);
+					margin-top: -18px;
+					background-image:url('../images/icon-mobile.png');
+					background-position: left top;
+					background-repeat: no-repeat;
+					background-size:100% auto;
+					@media screen and (max-width: $break-xlarge) {
+						width:16px;
+						height:34px;
+						margin-top: -16px;
+					}
+				}
+				a{
+					&:link,&:visited{
+						font-weight: 700;
+						color: $blue;
+						text-decoration: none;
+					}
+				}
+				@media screen and (max-width: $break-xlarge) {
+					@include font-size(18);
+					height: 40px;
+					line-height: 40px;
+				}
+			}
+			&:before{
+				content:"";
+				width:31px;
+				height:64px;
+				background:url('../images/header-angle-divide.png') left top no-repeat;
+				@media screen and (max-width: $break-xsmall) {
+					background: none;
+				}
+				@include abs-pos(0,auto,auto,-31px);
+			}
+			&:after{
+				content:"";
+				width:1000px;
+				height:64px;
+				display: block;
+				background-color: $light-blue;
+				@media screen and (max-width: $break-xsmall) {
+					background-color: transparent;
+				}
+				@include abs-pos(0,-1000px,auto,auto);
+			}
+			@media screen and (max-width: $break-xlarge) {
+				height:40px;
+			}
+		}
+		#search{
+			width: 260px;
+			@include abs-pos(7px,400px,auto,auto);
+			padding-right:35px;
+			height:30px;
+			input{
+				float: left;
+				background-color: white;
+				height:28px;
+				line-height: 1;
+			}
+			button{
+				@include abs-pos(0,0,auto,auto);
+				width:28px;
+				height:28px;
+				background:url('../images/icon-search.png') center center no-repeat;
+				background-size: 90% auto;
+				border:none;
+			}
+		}
+		@media screen and (max-width: $break-xlarge) {
+			height:40px;
+		}
+	}
+}
+nav#connect{
+	@include inline-menu;
+	@include abs-pos(8px,340px,auto,auto);
+	li{
+		margin: 0 3px;
+	}
+	@media screen and (max-width: $break-small) {
+		right:315px;
+		top:4px;
+	}
+	@media screen and (max-width: $break-xsmall) {
+		display: none;
+	}
+	a{
+		&:link,&:visited{
+			width:24px;
+			height:24px;
+			@media screen and (max-width: $break-small) {
+				height:30px;
+				width:30px;
+			}
+			background-color: $light-blue;
+			@include border-radius(50%);
+			@extend %ir;
+			display: block;
+			background-image:url('../images/twitter-small.png');
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: 16px auto;
+			//@include opacity(.6);
+			&.facebook{
+				background-image:url('../images/facebook-small.png');
+				background-size: 16px auto;
+			}
+			&.pinterest{
+				background-image:url('../images/pinterest-small.png');
+				background-size: 16px auto;
+			}
+			&.mail{
+				background-image:url('../images/mail-small.png');
+				background-size: 14px auto;
+				@media screen and (max-width: $break-small) {
+					background-size: 18px auto;
+				}
+			}
+			&.linkedin{
+				background-image:url('../images/linkedin-small.png');
+				background-size: 14px auto;
+			}
+			@media screen and (max-width: $break-small) {
+				&.facebook,&.pinterest,&.twitter,&.linkedin{
+					display: none;
+				}
+			}
+		}
+		&:hover, &:active{
+			background-color:darken($light-blue,10);
+		}
+	}
+}

@@ -1,0 +1,37 @@
+.home{
+	height:100%;
+	width:100%;
+}
+
+.home{
+	#main{
+		@extend %clearfix;
+		padding-right:22px;
+		padding-top:500px;
+		padding-bottom:50px;
+		background-color:#000;
+	}
+	#content{
+		@include span-columns(10);
+		@include shift(6);
+		position: relative;
+		z-index:998;
+		@extend %clearfix;
+	}
+
+	#features{
+		@extend %clearfix;
+	}
+	#intro{
+		background-color: white;
+		padding:30px;
+		@include font-size(18);
+		line-height: 130%;
+		margin-bottom: 4%;
+	}
+	.feature-link{
+		@include span-columns(8);
+		@include omega(2n);
+		margin-bottom: 1.75788%;
+	}
+}

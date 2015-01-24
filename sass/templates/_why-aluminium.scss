@@ -1,0 +1,31 @@
+#benefit-list{
+
+	@extend .clearfix;
+	article{
+		margin-bottom: 15px;
+		figure{
+			@include span-columns(4);
+			img{
+				display: block;
+				@include fit-grid(width);
+			}
+		}
+		h4{
+			margin-bottom: 20px;
+		}
+		.column{
+			@include span-columns(8);
+			padding:10px 0 0 20px;
+		}
+		&.right{
+			figure{
+				float: right;
+				margin:0;
+			}
+			.column{
+				padding: 10px 20px 0 0;
+			}
+		}
+	}
+
+}

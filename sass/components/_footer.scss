@@ -1,0 +1,115 @@
+#footer{
+	@extend %full-width;
+	color:white;
+	position:relative;
+	background-color: $blue;
+	z-index:999;
+	padding: 20px 0;
+	@media screen and (max-width: $break-small) {
+		@include centered-menu;
+		text-align: center;
+	}
+	#footer-nav{
+		@extend %clearfix;
+		@media screen and (min-width: $break-small+1) {
+			@include inline-menu;
+		}
+		@media screen and (max-width: $break-small) {
+			float:none;
+			width:auto;
+			margin-bottom: 30px;
+
+		}
+		float:left;
+		width:340px;
+		@media screen and (max-width: $break-small) {
+			width:auto;
+		}
+		li{
+			width: 170px;
+			@media screen and (max-width: $break-small) {
+				width:100%;
+			}
+			a{
+				&:link,&:visited{
+					color: white;
+					@include font-size(12);
+				}
+			}
+		}
+	}
+	.affiliates{
+		float:left;
+		padding-right:80px;
+		@media screen and (max-width: $break-small) {
+			float:none;
+			padding:0;
+			margin:0 auto 10px;
+		}
+	}
+	#footer-top{
+		@extend %clearfix;
+		padding-bottom:20px;
+	}
+	#footer-bottom{
+		@include font-size(11);
+	}
+}
+nav#social{
+	@include inline-menu;
+	#footer &{
+		float:right;
+		@media screen and (max-width: $break-small) {
+			@include span-columns(12);
+			float:none;
+		}	
+	}
+	li{
+		margin: 0 8px 0 0;
+		#footer &{
+			margin: 0 0 0 8px;
+		}
+		
+	}
+	a{
+		width:40px;
+		height:40px;
+		@include border-radius(50%);
+		background-color: $grey;
+		@include opacity(.5);
+		#footer &{
+			background-color:white;	
+			
+		}
+		background-image:url('../images/linkedin-white.png');
+		#footer &{
+			background-image:url('../images/linkedin.png');
+		}
+		background-position: center center;
+		background-repeat:no-repeat;
+		@include transition(all 0.3s ease-in-out);
+		
+		@extend %ir;
+		&:hover,&:active{
+			@include opacity(1);	
+		}
+		&.twitter{
+			background-image:url('../images/twitter-white.png');
+			#footer &{
+				background-image:url('../images/twitter.png');
+			}
+		}
+		&.facebook{
+			background-image:url('../images/facebook-white.png');
+			#footer &{
+				background-image:url('../images/facebook.png');
+			}
+		}
+		&.pinterest{
+			background-image:url('../images/pinterest-white.png');
+			#footer &{
+				background-image:url('../images/pinterest.png');
+			}
+		}
+	}
+}

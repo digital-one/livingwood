@@ -1,0 +1,214 @@
+#nav{
+	@extend %full-width;
+	background-color:white;
+	@include inline-menu;
+	&:after{
+		content:"";
+		@include abs-pos(auto,0,-43px,0);
+		height:43px;
+		background-image: url('../images/nav-bar-shadow.png');
+		background-position:  center top;
+		overflow:visible;
+		background-repeat: repeat-x;
+	}
+	ul{
+		display:block;
+		@media screen and (max-width: $break-large) {
+			padding-top:10px;
+			@include abs-pos(106px,0,auto,0);
+			background-color: white;
+			li{
+				width:100%;
+				padding: 0;
+				&:last-child{
+					a:before{
+						background-color:transparent;
+					}
+				}
+				a{
+					height:auto !important;
+					line-height: 100%;
+					display:block;
+					width:100%;
+					@include font-size(16);
+					padding:20px 10px 20px 20px;
+					text-align: left;
+					position: relative;
+					color: $grey !important;
+					background-color: transparent !important;
+					&:before{
+						content:"";
+						display:block;
+						height:1px;
+						background-color: $light-grey;
+						@include abs-pos(auto,10px,0,10px);
+					}
+					&:after{
+						content:"";
+						width:10px;
+						height:16px;
+						display: block;
+						background-image:url('../images/sub-menu-arrow.png');
+						background-position: left top;
+						background-repeat: no-repeat;
+						@include abs-pos(50%,20px,auto,auto);
+						margin-top: -8px;
+					}
+					&:last-child:before{
+						//background-color: white;
+					}
+					&:link,&:visited{
+
+					}
+					&:hover,&:active{
+						color: $blue !important;
+						&:after{
+							background-position: right top;
+						}
+					}
+				}
+			}
+		}
+		float:right;
+		@include wp-current-page-links{
+			background-color: $blue;
+			color: white;
+		}
+
+		.sub-menu{
+			@include abs-pos(106px,0,auto,0);
+			@media screen and (max-width: $break-large) {
+				position: relative;
+				top:auto;
+				left:auto;
+				right:auto;
+				width:100%;
+				background: none;
+				padding:0;
+			}
+			background-color: white;
+			width:300px;
+			z-index: 999;
+			background-image: url('../images/nav-bar-shadow.png');
+			background-position: center 0;
+			background-repeat: repeat-x;
+			li{
+				width:100%;
+				padding: 0;
+				&:last-child{
+					a:before{
+						background-color:transparent;
+						@media screen and (max-width: $break-large) {
+							background-color: $light-grey;
+						}
+					}
+
+				}
+				a{
+					height:auto;
+					line-height: 100%;
+					display:block;
+					width:100%;
+					@include font-size(16);
+					padding:20px 10px 20px 20px;
+					@media screen and (max-width: $break-large) {
+						padding:15px 10px 15px 30px;
+						@include font-size(16);
+					}
+					@media screen and (max-width: $break-small) {
+						@include font-size(14);
+						padding:12px 10px 12px 30px;
+					}
+					text-align: left;
+					position: relative;
+					color: $grey !important;
+					background-color: transparent !important;
+					&:before{
+						content:"";
+						display:block;
+						height:1px;
+						background-color: $light-grey;
+						@include abs-pos(auto,10px,0,10px);
+					}
+					&:after{
+						content:"";
+						width:10px;
+						height:16px;
+						display: block;
+						background-image:url('../images/sub-menu-arrow.png');
+						background-position: left top;
+						background-repeat: no-repeat;
+						@include abs-pos(50%,20px,auto,auto);
+						margin-top: -8px;
+					}
+					&:last-child:before{
+						//background-color: white;
+					}
+					&:link,&:visited{
+
+					}
+					&:hover,&:active{
+						color: $blue !important;
+						&:after{
+							background-position: right top;
+						}
+					}
+				}
+			}
+		}
+		a{
+			&:link,&:visited{
+				color: $blue;
+				display: block;
+				height:133px;
+				line-height: 133px;
+				text-align: center;
+				@include font-size(18);
+				font-family: $oswald;
+				font-weight: 700;
+				text-transform: uppercase;
+				padding:0 23px;
+				@media screen and (max-width: $break-xlarge) {
+					height:106px;
+					line-height: 106px;
+				}
+				@media screen and (max-width: $break-large) {
+					height:auto;
+					line-height: 100%;
+					padding:15px 20px;	
+					text-align: left;
+					@include font-size(18);
+				}
+				@media screen and (max-width: $break-small) {
+					@include font-size(14);
+					padding:12px 20px;	
+				}
+			}
+			&:hover,&:active{
+				background-color: $light-blue;
+			}
+		}
+
+	}
+	@media screen and (max-width: $break-large) {
+		.container{
+			padding: 0;
+		}
+	}
+	
+	a.mobile-menu{
+		height: 106px;
+		background: $blue url('../images/mobile-menu.png') center center no-repeat;
+		width:80px;
+		@extend %ir;
+		display: none;
+		float:right;
+		@media screen and (max-width: $break-large) {
+			display:block;
+		}
+		@media screen and (max-width: $break-xsmall) {
+			width:50px;
+		}
+	}
+	
+}
