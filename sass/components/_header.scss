@@ -1,7 +1,7 @@
 #header{
 	position:fixed;
-	@media screen and (max-width: $break-large) {
-		@include abs-pos(0,auto,auto,0);
+	@media screen and (max-width: $break-xsmall) {
+		@include abs-pos(0,auto,auto,0);  
 	}
 	z-index:999;
 	left:0;
