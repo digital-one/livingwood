@@ -15,7 +15,7 @@ textarea,
 	padding: 0 10px;
 	@include font-size(14);
 	border: none;
-	width: 100%;
+	width: 100% !important;
 	@include transition (background-color .1s linear 0s);
 	&:focus{
 		background-color: #f1f1f1;
@@ -269,7 +269,7 @@ input,textarea{
 		@include font-size(12);
 	}
 	select{
-		width: 70%;
+		width: 100% !important;
 		@media screen and (max-width: $break-small) {
 			width:100%;
 		}

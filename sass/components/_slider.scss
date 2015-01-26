@@ -95,6 +95,10 @@
 	.slick-track{
 		//padding-top: 197px;
 		@extend %clearfix;
+		#opening-elements &{
+			height:84px;
+			overflow: hidden;
+		}
 	}
 	.slick-slide{
 		@include bg-cover;

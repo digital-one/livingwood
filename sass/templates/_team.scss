@@ -1,12 +1,32 @@
 #team-list{
 	padding: 0 22px;
+	@media screen and (max-width: $break-medium) {
+		padding:0;
+	}
 	@extend .clearfix;
 	.signpost{
-		@include span-columns(4);
-		@include omega(3n);
-		min-height:510px;
+		@media screen and (min-width: $break-medium+1) {
+			@include span-columns(4);
+			@include omega(3n);
+		}
+		@media screen and (max-width: $break-medium) {
+			@include span-columns(6);
+			@include omega(2n);
+			margin-bottom: 2.35765%;
+		}
+		@media screen and (max-width: $break-small) {
+			@include span-columns(12);
+			margin-bottom: 15px;
+		}
+		min-height:490px;
+		.signpost-inner{
+			padding-bottom:10px;
+		}
 		h3{
 			@include font-size(22);
+			@media screen and (max-width: $break-medium) {
+				@include font-size(20);
+			}
 		} 
 		figure{
 			img{
@@ -23,6 +43,9 @@
 			@include font-size(22);
 			margin-bottom: 12px;
 		}
+		@media screen and (max-width: $break-small) {
+			padding: 0 5%;
+		}
 		figure{
 			margin:0 auto 30px;
 			width: 25%;
@@ -34,6 +57,12 @@
 				padding-top:100%;
 				display: block;
 			}
+			@media screen and (max-width: $break-medium) {
+				width: 40%;
+			}
+			@media screen and (max-width: $break-small) {
+				width: 50%;
+			}
 		}
 	}
 }
@@ -42,6 +71,10 @@
 	div{
 		@include span-columns(10);
 		@include shift(1);
+		@media screen and (max-width: $break-medium) {
+			@include span-columns(12);
+			@include shift(0);
+		}
 		background-color: white;
 		padding: 20px 0 20px 5px;
 		margin-bottom: 15px;

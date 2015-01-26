@@ -3,8 +3,12 @@
 	@extend .clearfix;
 	article{
 		margin-bottom: 15px;
+		padding:0;
 		figure{
 			@include span-columns(4);
+			@media screen and (max-width: $break-small) {
+				@include span-columns(12);
+			}
 			img{
 				display: block;
 				@include fit-grid(width);
@@ -13,9 +17,17 @@
 		h4{
 			margin-bottom: 20px;
 		}
+		p{
+			line-height: 130%;
+			margin:0;
+		}
 		.column{
 			@include span-columns(8);
 			padding:10px 0 0 20px;
+			@media screen and (max-width: $break-small) {
+				@include span-columns(12);
+				padding: 20px 0 0;
+			}
 		}
 		&.right{
 			figure{
@@ -24,6 +36,9 @@
 			}
 			.column{
 				padding: 10px 20px 0 0;
+				@media screen and (max-width: $break-small) {
+					padding: 20px 0 0;
+				}
 			}
 		}
 	}

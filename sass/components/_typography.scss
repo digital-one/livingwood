@@ -35,13 +35,16 @@ h1{
 }
 h3{
 	@include font-size(28);
-	@media screen and (max-width: $break-medium) {
+	@media screen and (max-width: $break-large) {
 		@include font-size(24);
 	}
 }
 h4{
 	@include font-size(22);
 	margin-bottom:20px;
+	@media screen and (max-width: $break-small) {
+		@include font-size(18);
+	}
 }
 h5{
 	@include font-size(16);
@@ -62,6 +65,9 @@ p.big{
 	line-height: 145%;
 	color: $dark-grey;
 	margin-bottom: 30px;
+	@media screen and (max-width: $break-small) {
+		@include font-size(16);
+	}
 }
 address{
 	font-style: normal;

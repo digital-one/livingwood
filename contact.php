@@ -16,28 +16,7 @@
 
     </head>
     <body>
-        <!-- header -->
-        <header id="header">
-            <div id="top">
-                <div class="container">
-                    <nav id="connect"><ul><li><a href="" class="mail">sales@livingwood.co.uk</a></li><li><a href="" class="twitter">Twitter</a></li><li><a href="" class="facebook">Facebook</a></li><li><a href="" class="pinterest">Pinterest</a></li><li><a href="" class="linkedin">Linkedin</a></li></ul></nav>
-<!--<form id="search">
-<input type="text" name="s" id="s" placeholder="Search" />
-<button type="submit"></button>
-</form>-->
-<div id="tel"><span>CALL US TODAY ON: <a href="">0123 567 8910</a></span></div>
-</div>
-            </div>
-
-<!--<a id="home-link" href="">The Aluminium Sliding Door &amp; Window Company</a>-->
-<nav id="nav">
-    <div class="container">
-        <h1 id="home-link">The Aluminium Sliding Door &amp; Window Company</h1>
-    <ul><li class="current-menu-item"><a href="">Products</a><ul class="sub-menu"><li><a href="">Windows</li><li><a href="">Doors</a></li></ul></li><li><a href="">About Us</a></li><li><a href="">Why Aluminium</a></li><li><a href="">Gallery</a></li><li><a href="">Downloads</a></li><li><a href="">News &amp; Blog</a></li><li><a href="">Contact Us</a></li></ul>
-</div>
-</nav>
-        </header>
-        <!-- /header -->
+     <?php include('header.php') ?>
     
         <!--main-->
         <main id="main" class="contact">
@@ -125,17 +104,7 @@
 
 <nav id="social"><ul><li><a href="">Linkedin</a></li><li><a href="" class="facebook">Facebook</a></li><li><a href="" class="twitter">Twitter</a></li><li><a href="" class="pinterest">Pinterest</a></li></ul></nav>
                 </section>
-<section id="signposts">
-     <!--guarantee-->
-        <a class="feature-link" href=""><figure><img src="images/feature-img-2.jpg" /></figure><div class="feature-content"><h3>10 YEAR<span>GUARANTEE</span></h3><span class="logo"><img src="images/10-year-guarantee.png" /></span><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod</p></div><div class="feature-icon-wrap"><span>Read more</span><span class="feature-icon"></span></div></a>
-         <!--/guarantee-->
-        <!--swatches-->
-         <a class="feature-link" href=""><figure><img src="images/feature-img-2.jpg" /></figure><div class="feature-content"><h3>ENDLESS OPTION<span>RAL SWATCH</span></h3><p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  sed diam nonumy eirmod</p></div><div class="feature-icon-wrap"><span>Read more</span><span class="feature-icon"></span></div></a>
-         <!--/swatches-->
-   <!--testimonial-->
-           <a class="feature-link static" href=""><blockquote><p>We are really Happy with our windows &amp; doors from Livingwood Windows.  They arrived on site extremley well packed, and are easy to install.  We had no problems with measurements, each one was exactly what we asked for.  <span></span></p><footer>Mr &amp; Mrs Keable Suffolk</footer></blockquote><div class="feature-icon-wrap"><span>Read more testimonials</span><span class="feature-icon"></span></div></a>
-           <!--/testimonial-->
-    </section>
+<?php include('signposts.php'); ?>
         </div>
 </main>
 <!--footer-->

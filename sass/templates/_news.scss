@@ -50,4 +50,8 @@
 	background-color: #fff;
 	padding: $box-padding;
 	margin-bottom: 60px;
+	@media screen and (max-width: $break-medium) {
+		@include span-columns(12);
+		@include shift(0);
+	}
 }

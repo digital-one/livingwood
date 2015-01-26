@@ -15,6 +15,7 @@
 		display:block;
 		@media screen and (max-width: $break-large) {
 			padding-top:10px;
+			display: none;
 			@include abs-pos(106px,0,auto,0);
 			background-color: white;
 			li{

@@ -1,14 +1,24 @@
 #technical{
-	@extend %clearfix;
+	@extend .clearfix;
 	margin-bottom: 60px;
+	.signpost{
+		padding:0;
+		min-height:202px;
+	}
 }
 #technical-information{
 	@include span-columns(5);
+	@media screen and (max-width: $break-small) {
+		@include span-columns(12);
+	}
 }
 #opening-elements{
 	@include span-columns(7);
 	h4{
 		margin-bottom: 30px;
+	}
+	@media screen and (max-width: $break-small) {
+		@include span-columns(12);
 	}
 }
 #file-dl{

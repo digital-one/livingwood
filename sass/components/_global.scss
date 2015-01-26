@@ -5,9 +5,9 @@
 }
 .signpost{
 	background-color: white;
-	@extend %clearfix;
+	@extend .clearfix;
 	.signpost-inner{
-		@extend %clearfix;
+		@extend .clearfix;
 		padding: $box-padding;
 		@media screen and (max-width: $break-large) {
 			padding:15px;
@@ -18,19 +18,18 @@
 
 	}
 	p{
-		line-height: 120%;
+		line-height: 135%;
 	}
-	&.cta{
+	&.form{
 		padding:0;
 		@include abs-pos(0,0,0,auto);
-		@media screen and (max-width: $break-small) {
-			position: relative;
-			width:100% !important;
-			margin-top:2.35765%;
-			height: 300px;
-		}
-		@media screen and (max-width: $break-xsmall) {
-			margin-top:0;
+		@media screen and (max-width: $break-medium) {
+			position:relative;
+			@include span-columns(10); 
+			@include shift(1);
+			left:auto;
+			right:auto;
+			top:auto;
 		}
 	}
 	#signposts &, #products &{
@@ -44,11 +43,18 @@
 	background-color:white;
 	display: block; 
 	position:relative;
-	overflow:hidden;
 	width:100%;
 	height:auto;
 	@media screen and (max-width: $break-xsmall) {
 		margin-bottom:15px;
+	}
+	&.quote{
+		@include span-columns(10);
+		@include shift(1);
+		@media screen and (max-width: $break-medium) {
+			@include shift(0);
+			@include span-columns(12);
+		}
 	}
 	//min-height:384px;
 	padding-bottom: 40px;
@@ -69,6 +75,7 @@
 		img{
 			@include fit-grid(width);
 			@include abs-pos(0,auto,auto,0);
+			display: block;
 			#products &{
 				position: relative;
 			}
@@ -207,9 +214,27 @@
 	}
 	#signposts &, #products &,#news-archive &{
 		@include span-columns(4); 
-		@media screen and (max-width: $break-small) {
-			@include span-columns(6); 
+		@media screen and (max-width: $break-medium) {
+			@include span-columns(6);
+			&.form{
+				@include span-columns(6);
+				@include shift(0);
+				padding-bottom: 60px;
+				@media screen and (max-width: $break-small) {
+					@include span-columns(12);
+					@include shift(0);
+				}
+			}
+			&.quote{
+				@include span-columns(10);
+				@include shift(1);
+				@media screen and (max-width: $break-small) {
+					@include span-columns(12);
+					@include shift(0);
+				}
+			}
 			@include omega(2n);
+			margin-bottom:15px;
 		}
 		@media screen and (max-width: $break-xsmall) {
 			@include span-columns(12); 
@@ -217,6 +242,9 @@
 	}
 	#news-archive .lead-stories &{
 		@include span-columns(6); 
+		@media screen and (max-width: $break-small) {
+			@include span-columns(12); 
+		}
 	}
 }
 
@@ -224,6 +252,9 @@ blockquote{
 	padding:30px 55px 0 55px;
 	p{
 		@include font-size(22);
+		@media screen and (max-width: $break-medium) {
+			@include font-size(20);
+		}
 		font-family: $oswald;
 		font-weight: 700;
 		color: $blue;
@@ -369,11 +400,20 @@ form#call-back{
 	@extend %clearfix; 
 	div.column{
 		@include span-columns(6);
+		@media screen and (max-width: $break-small) {
+			@include span-columns(12);
+		}
 		&.article{
 			@include span-columns(9);
+			@media screen and (max-width: $break-small) {
+				@include span-columns(12);
+			}
 		}
 		.contact &{
 			@include span-columns(7);
+			@media screen and (max-width: $break-small) {
+				@include span-columns(12);
+			}
 		}
 	}
 	aside{
@@ -383,33 +423,53 @@ form#call-back{
 		}
 	}
 	margin: 0 0 $box-padding;
+	&.product{
+		@media screen and (max-width: $break-medium) {
+			.column{
+				@include span-columns(12);
+			}
+			#product-slider{
+				padding: 20px 10% 10px;
+			}
+		}
+	}
 	&.image{
 		div{
 			@include span-columns(7);
 			@media screen and (max-width: $break-small) {
 				@include span-columns(12);
 				@include omega; 
-				padding:0;
+				padding:0 0 15px;
 			}
 			padding-right:40px;
 			&:last-child{
 				@include span-columns(5);
 				@media screen and (max-width: $break-small) {
-					display:none;
+					@include span-columns(12);
 				}
 				padding:0;
 				img{
 					@include fit-grid(width);
+					display: block;
 				}
 			}
 		}
 	}
 }
 .feature-link{
-		padding-bottom:153px;
+	padding-bottom:153px;
+	&.fixed{
+		padding-bottom:0;
+	}
+	#products &{
+		padding-bottom: 130px;
+		@media screen and (max-width: $break-large) {
+			padding-bottom: 120px;
+		}
+	}
 }
 #signposts,#products{
-	@extend %clearfix;
+	@extend .clearfix;
 	margin-bottom: $box-padding;
 }
 #products{
@@ -420,9 +480,19 @@ form#call-back{
 	@extend %clearfix;
 	background-color: white;
 	padding: $box-padding;
+	@media screen and (max-width: $break-large) {
+		padding: 30px 30px 0;
+	}
+	@media screen and (max-width: $break-small) {
+		padding: 15px 15px 0;
+	}
 	margin: 0  0 $box-padding;
 	div{
-		@include span-columns(6)
+		@include span-columns(6);
+		@media screen and (max-width: $break-large) {
+			@include span-columns(12);
+			padding-bottom: 30px;
+		}
 	}
 }
 #signposts{
@@ -435,6 +505,9 @@ form#call-back{
 .centered{
 	width:100%;
 	padding: 0 20%;
+	@media screen and (max-width: $break-medium) {
+		padding: 0 10%;
+	}
 	@media screen and (max-width: $break-xsmall) {
 		padding:0 20px;
 	}
@@ -474,6 +547,7 @@ a.anchor-arrow{
 	height: 54px;
 	position: relative;
 	@extend %clearfix;
+	margin-bottom: 30px;
 }
 footer.load-more{
 	@include span-columns(12);

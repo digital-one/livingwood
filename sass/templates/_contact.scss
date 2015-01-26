@@ -8,6 +8,9 @@ form#enquiry{
 	ul{
 		@include span-columns(6);
 		margin-bottom: 0;
+		@media screen and (max-width: $break-medium) {
+			@include span-columns(12);
+		}
 	}
 }
 #address{

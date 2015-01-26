@@ -16,28 +16,7 @@
 
     </head>
     <body>
-       <!-- header -->
-        <header id="header">
-            <div id="top">
-                <div class="container">
-                    <nav id="connect"><ul><li><a href="" class="mail">sales@livingwood.co.uk</a></li><li><a href="" class="twitter">Twitter</a></li><li><a href="" class="facebook">Facebook</a></li><li><a href="" class="pinterest">Pinterest</a></li><li><a href="" class="linkedin">Linkedin</a></li></ul></nav>
-<!--<form id="search">
-<input type="text" name="s" id="s" placeholder="Search" />
-<button type="submit"></button>
-</form>-->
-<div id="tel"><span>CALL US TODAY ON: <a href="">0123 567 8910</a></span></div>
-</div>
-            </div>
-
-<!--<a id="home-link" href="">The Aluminium Sliding Door &amp; Window Company</a>-->
-<nav id="nav">
-    <div class="container">
-        <h1 id="home-link">The Aluminium Sliding Door &amp; Window Company</h1>
-    <ul><li class="current-menu-item"><a href="">Products</a><ul class="sub-menu"><li><a href="">Windows</li><li><a href="">Doors</a></li></ul></li><li><a href="">About Us</a></li><li><a href="">Why Aluminium</a></li><li><a href="">Gallery</a></li><li><a href="">Downloads</a></li><li><a href="">News &amp; Blog</a></li><li><a href="">Contact Us</a></li></ul>
-</div>
-</nav>
-        </header>
-        <!-- /header -->
+     <?php include('header.php') ?>
     
         <!--main-->
         <main id="main">
@@ -81,33 +60,4 @@ We are grateful to you and your colleagues for giving us such prompt service and
 
         </div>
 </main>
-<!--footer-->
-<footer id="footer">
-    <div class="container">
-    <div id="footer-top">
-<div class="affiliates"><a href="" target="_blank"><img src="images/reynaers.png" /></a></div>
-<nav id="footer-nav"><ul><li><a href="">Products</a></li>
-<li><a href="">About Us</a></li>
-<li><a href="">Why Alluminium</a></li>
-<li><a href="">Gallery</a></li>
-<li><a href="">Downloads</a></li>
-<li><a href="">News &amp; Blog</a></li>
-<li><a href="">Contact Us</a></li>
-</ul></nav>
-<nav id="social"><ul><li><a href="">Linkedin</a></li><li><a href="" class="facebook">Facebook</a></li><li><a href="" class="twitter">Twitter</a></li><li><a href="" class="pinterest">Pinterest</a></li></ul></nav>
-</div>
-<div id="footer-bottom">
-&copy; Copyright 2015, The Aluminium Slider Door &amp; Window Company. All rights reserved.
-    </div>
-</div>
-</footer>
-<!--/footer-->
-<!--scripts-->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-<!-- Load jQuery from a local copy if loading from Google fails -->
-<script>window.jQuery || document.write('<script type="text/javascript" src="js/jquery-1.10.1.min.js"><\/script>')</script>
-<script src="js/jquery.selectbox.min.js"></script>
-<script src="js/scripts.js"></script>
-<!--/scripts-->
-  </body>
-  </html>
+ <?php include('footer.php') ?>
