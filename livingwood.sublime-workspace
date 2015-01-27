@@ -4,100 +4,300 @@
 		"selected_items":
 		[
 			[
-				"banner",
-				"bannerImg"
+				"con",
+				"contact_email"
 			],
 			[
-				"ma",
-				"margin-bottom"
+				"txt_",
+				"txt_name"
+			],
+			[
+				"txt",
+				"txt_title"
+			],
+			[
+				"strip",
+				"stripslashes"
+			],
+			[
+				"i",
+				"important"
 			],
 			[
 				"pad",
 				"padding"
 			],
 			[
-				"fo",
-				"font-weight"
+				"pa",
+				"padding"
 			],
 			[
-				"te",
-				"text-align"
+				"ma",
+				"margin-bottom"
 			],
 			[
-				"ba",
-				"background-repeat"
+				"paddi",
+				"padding-top"
+			],
+			[
+				"emai",
+				"email_from_name"
+			],
+			[
+				"pr",
+				"proximanova-bold"
 			],
 			[
 				"mar",
 				"margin-bottom"
 			],
 			[
-				"testi",
-				"testimonials-slider"
+				"destry",
+				"destroyAccordion"
+			],
+			[
+				"dest",
+				"destroyAccordion"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"ba",
+				"background-color"
 			],
 			[
 				"bac",
-				"background-size"
+				"background-position"
 			],
 			[
-				"backgro",
-				"background-size"
+				"ht",
+				"htmlentities"
 			],
 			[
-				"marg",
-				"margin-bottom"
+				"sub",
+				"subMenuLinks"
 			],
 			[
-				"re",
-				"repeat-x"
+				"subMenu",
+				"subMenuChildLinks"
+			],
+			[
+				"replace",
+				"replaceFileFields"
+			],
+			[
+				"fot",
+				"font-style"
 			],
 			[
 				"font",
 				"font-family"
 			],
 			[
-				"tr",
-				"transparent"
+				"accord",
+				"accordion_pages"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"menu",
+				"menu-item-has-children"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"pro",
+				"proximanova-bold"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"tex",
+				"text-transform"
 			],
 			[
 				"n",
 				"none"
 			],
 			[
-				"pa",
-				"padding-bottom"
-			],
-			[
-				"qu",
-				"quantity"
-			],
-			[
-				"quan",
-				"quantity_2"
-			],
-			[
-				"fot",
-				"font-weight"
-			],
-			[
-				"fon",
-				"font-style"
-			],
-			[
-				"bg-",
-				"bg-cover"
-			],
-			[
-				"back",
+				"backgroun",
 				"background-image"
 			],
 			[
-				"font-",
-				"font-size"
+				"slick",
+				"slick-dots"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"current-",
+				"current-menu-item"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"curr",
+				"currentTarget"
+			],
+			[
+				"all",
+				"alllinks"
+			],
+			[
+				"crr",
+				"current-menu-item"
+			],
+			[
+				"current",
+				"current-menu-item"
+			],
+			[
+				"has",
+				"menu-item-has-children"
+			],
+			[
+				"cur",
+				"currentTarget"
+			],
+			[
+				"ref",
+				"refreshPushLinkActions"
+			],
+			[
+				"mobi",
+				"mobileMenuIsActive"
+			],
+			[
+				"toggle",
+				"toggleMobileDropDown"
+			],
+			[
+				"close",
+				"closeMobileMenu"
+			],
+			[
+				"isMob",
+				"isMobileMenu"
+			],
+			[
+				"wr",
+				"break-word"
+			],
+			[
+				"ur",
+				"urlencode"
+			],
+			[
+				"rep",
+				"replace"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"first",
+				"firstLoad"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"casestudies",
+				"casestudies_category"
+			],
+			[
+				"tran",
+				"transparent"
+			],
+			[
+				"activ",
+				"activateDropDown"
+			],
+			[
+				"our",
+				"our-people-sector"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"whit",
+				"white-space"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"fi",
+				"fill"
 			],
 			[
 				"in",
-				"inline-menu"
+				"inline-block"
+			],
+			[
+				"gutte",
+				"gutter-2x"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"text",
+				"text-decoration"
 			],
 			[
 				"overflow",
@@ -108,32 +308,12 @@
 				"dark-grey"
 			],
 			[
-				"max",
-				"max-width"
-			],
-			[
-				"padd",
-				"padding-left"
-			],
-			[
 				"visi",
 				"visible"
 			],
 			[
 				"aside",
 				"asideHeight"
-			],
-			[
-				"tex",
-				"text-transform"
-			],
-			[
-				"bor",
-				"border-bottom"
-			],
-			[
-				"text",
-				"textarea"
 			],
 			[
 				"bu",
@@ -152,10 +332,6 @@
 				"incorrectPanel"
 			],
 			[
-				"no",
-				"normal"
-			],
-			[
 				"di",
 				"dinreg"
 			],
@@ -172,12 +348,12 @@
 				"roboto-sans"
 			],
 			[
-				"margi",
-				"margin-bottom"
-			],
-			[
 				"a",
 				"auto"
+			],
+			[
+				"backgro",
+				"background-color"
 			],
 			[
 				"he",
@@ -312,16 +488,8 @@
 				"slide-business-06"
 			],
 			[
-				"background",
-				"background-repeat"
-			],
-			[
 				"text-",
 				"text-align"
-			],
-			[
-				"first",
-				"first-child"
 			],
 			[
 				"v",
@@ -330,10 +498,6 @@
 			[
 				"ty",
 				"typeof"
-			],
-			[
-				"tran",
-				"transform"
 			],
 			[
 				"slide",
@@ -350,78 +514,6 @@
 			[
 				"po",
 				"point"
-			],
-			[
-				"b",
-				"background-attachment"
-			],
-			[
-				"rgb",
-				"rgba()"
-			],
-			[
-				"backgrou",
-				"background-color"
-			],
-			[
-				"web",
-				"webkitTransitionEnd"
-			],
-			[
-				"remv",
-				"removeClass"
-			],
-			[
-				"menu_i",
-				"menu_is_init"
-			],
-			[
-				"me",
-				"menu_show"
-			],
-			[
-				"app",
-				"app_state"
-			],
-			[
-				"set",
-				"set_app_mode"
-			],
-			[
-				"lin",
-				"link_anim_d"
-			],
-			[
-				"rota",
-				"rotateX"
-			],
-			[
-				"remove",
-				"removeClass"
-			],
-			[
-				"content",
-				"contents"
-			],
-			[
-				"quickmen",
-				"quickmenu_moveto"
-			],
-			[
-				"quick",
-				"quickmenu_show"
-			],
-			[
-				"quic",
-				"quickmenu_show"
-			],
-			[
-				"o",
-				"opacity"
-			],
-			[
-				"is",
-				"is_open"
 			]
 		]
 	},
@@ -456,144 +548,146 @@
 	},
 	"file_history":
 	[
-		"/Applications/MAMP/htdocs/woocommerce/wp-content/themes/mystile/woocommerce/loop/result-count.php",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/sass/components/_global.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/sass/components/_navigation.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/sass/templates/_news.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/sass/components/_container.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/page.php",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/js/scripts.js",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/sass/templates/_home.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/front-page.php",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/sass/components/_gravityforms.scss",
-		"/Users/neilmills/Downloads/fastforwardbook.sql",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-config.php",
-		"/Users/neilmills/Downloads/_htaccess.txt",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/buy-the-book.php",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/template-page-1.php",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/js/jquery.scrollTo.min.js",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/template-page-2.php",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/footer.php",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/sass/templates/_chapter-overview.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/sass/helpers/mixins/_all.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/sass/helpers/mixins/_responsive-video.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/sass/components/_slider.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/sass/components/_footer.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/sass/templates/_previous-books.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/sass/_variables.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/archive-news.php",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/sass/_footer.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/sass/helpers/mixins/_group.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/sass/components/_header.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/header.php",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/single-news.php",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/sass/components/_forms.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/sass/templates/_all.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/sass/components/_typography.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/sass/helpers/_placeholders.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/sass/_base.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/sass/components/_all.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/fonts/ocr-a_regular-webfont.eot",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/images/video-slide-bg.jpg",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/build/sass/templates/_home.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/build/sass/components/_gravityforms.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/functions.php",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/build/sass/components/_header.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/sass/_variables.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/sass/components/_container.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/sass/components/_gravityforms.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/sass/components/_typography.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/sass/templates/_home.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/index.php",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/sass/components/_forms.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/sass/components/_global.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/sass/components/_footer.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/sass/components/_header.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/build/sass/_footer.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/build/sass/components/_footer.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/build/sass/components/_global.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/sass/helpers/_placeholders.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/sass/helpers/mixins/_border-radius.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/sass/_base.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/fastforward.sql",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/js/jquery-1.10.1.min.js",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/sass/helpers/_placeholders.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/sass/helpers/mixins/_all.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/sass/helpers/mixins/_border-radius.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/sass/_variables.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/sass/_base.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/sass/components/_header.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/sass/components/_typography.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/sass/templates/_home.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/sass/components/_global.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/sass/components/_all.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/style.css",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/sass/components/_container.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/sass/components/_footer.scss",
-		"/Applications/MAMP/htdocs/coyote/fast_forward/sass/components/_navigation.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/templates/_webinars.scss",
-		"/Applications/MAMP/htdocs/altinet/about.html",
-		"/Applications/MAMP/htdocs/altinet/solutions.html",
-		"/Applications/MAMP/htdocs/altinet/index.html",
-		"/Applications/MAMP/htdocs/altinet/solutions-detail.html",
-		"/Applications/MAMP/htdocs/altinet/partners.html",
-		"/Applications/MAMP/htdocs/altinet/partner-detail.html",
-		"/Applications/MAMP/htdocs/altinet/videos.html",
-		"/Applications/MAMP/htdocs/altinet/single-news.html",
-		"/Applications/MAMP/htdocs/altinet/archive-news.html",
-		"/Applications/MAMP/htdocs/altinet/single.html",
-		"/Applications/MAMP/htdocs/altinet/sass/components/_typography.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/components/_global.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/components/_navigation.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/components/_footer.scss",
-		"/Applications/MAMP/htdocs/altinet/archive.html",
-		"/Applications/MAMP/htdocs/altinet/css/layout.css",
-		"/Applications/MAMP/htdocs/altinet/sass/components/_all.scss",
-		"/Applications/MAMP/htdocs/altinet/js/scripts.js",
-		"/Applications/MAMP/htdocs/altinet/sass/templates/_all.scss",
-		"/Applications/MAMP/htdocs/altinet/webinars.html",
-		"/Applications/MAMP/htdocs/altinet/valuation.html",
-		"/Applications/MAMP/htdocs/altinet/sass/templates/_blog.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/_variables.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/_base.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/components/_container.scss",
-		"/Applications/MAMP/htdocs/altinet/contact.html",
-		"/Applications/MAMP/htdocs/altinet/case-studies.html",
-		"/Applications/MAMP/htdocs/altinet/case-study-detail.html",
-		"/Applications/MAMP/htdocs/altinet/inner.html",
-		"/Applications/MAMP/htdocs/altinet/webinar-register.html",
-		"/Applications/MAMP/htdocs/altinet/sass/templates/_home.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/components/_slider.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/templates/_solutions.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/components/_header.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/templates/_case-study.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/templates/_partners.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/components/_forms.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/templates/_contact.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/modules/_owl-carousel.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/modules/_all.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/layout.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/helpers/mixins/_rgba-bg.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/helpers/mixins/_all.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/_reset.scss",
-		"/Applications/MAMP/htdocs/altinet/storage.html",
-		"/Applications/MAMP/htdocs/altinet/sass/helpers/mixins/_responsive-video.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/helpers/mixins/_vcenter.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/helpers/mixins/_responsive-square.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/_helpers.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/helpers/mixins/_wp-current-page-links.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/helpers/_placeholders.scss",
-		"/Applications/MAMP/htdocs/altinet/sass/helpers/mixins/_text-shadow.scss"
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/post_types/memorials.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/plugins/user_csv_exporter/user_csv_exporter.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/functions/users.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/plugins/user_csv_exporter/export.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/sass/components/_all.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/header.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/template-two-column-without-subnav.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/sass/components/_global.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/functions/shortcodes.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/template-register-login.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/footer.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/functions.php",
+		"/Applications/MAMP/htdocs/jump/livingwood/wp-content/themes/livingwood/css/editor-style.css",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/sass/components/_accordion.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/sass/components/_forms.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/template-two-column-accordion.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/template-three-column-accordion.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/template-section-accordion.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-admin/user-new.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/functions/email.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/functions/class.loginclass.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/sass/components/_container.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/gfur-activate-template/activate-success.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/template-two-column.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/template-three-columns.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/template-quick-links-landing.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/template-feature-landing.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/template-accordion.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-includes/user.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/plugins/user_csv_exporter/admin_page.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/functions/options/email.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/gfur-activate-template/activate-error.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/archive-news.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/sass/components/_slider.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/css/layout.css",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/sass/components/_header.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/sass/templates/_news-events.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/single-people.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/single-news.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/sass/components/_navigation.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/sass/templates/_home.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/sass/templates/_professionals.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/sass/_variables.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/template-login.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/archive-people.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/template-contact.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/widgets/widget_newsletter_banner.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/sass/components/_footer.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/page.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/functions/image-sizes.php",
+		"/Applications/MAMP/htdocs/ama/pagets/templates/sass/components/_slider.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/front-page.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/template-shop.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/template-reset-password.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/archive-memorial.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/sass/components/_typography.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/functions/options/options.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/functions/options/footer.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/sass/helpers/classes/_all.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/sass/helpers/classes/_wordpress.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/sass/_base.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/functions/options.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/search.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-config.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/sass/templates/_patrons.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/js/scripts.js",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/images/accordion-arrow.svg",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/post_types/documents.php",
+		"/Applications/MAMP/htdocs/ama/pagets/pagets.sql",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/post_types/news.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/functions/url-rewrites.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/template-remembrance-garden.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/post_types/products.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/functions/post-types.php",
+		"/Applications/MAMP/htdocs/ama/pagets/templates/sass/templates/_remembrance-garden.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/sass/templates/_remembrance-garden.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/templates/sass/components/_container.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/functions/reset-password.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/login-form.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/functions/login.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/reset-password-form.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/update-password-form.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/gfur-activate-template/activate.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/sass/helpers/mixins/_fixed-ratio.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/post_types/people.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/template-people.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/functions/tinymce-buttons.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/js/admin-scripts.js",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/functions/options/contact.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/functions/tinymce-classes.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/functions/sidebars.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/js/tinymce-video-button.js",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/sass/helpers/mixins/_responsive-video.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/plugins/black-studio-tinymce-widget/includes/class-widget.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/post_types/banners.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/css/editor-style.css",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/widgets/widget_signpost_box.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/post_types/centres.php",
+		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/sass/helpers/mixins/_fixed-ratio.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/functions/menus.php",
+		"/Applications/MAMP/htdocs/ama/pagets/templates/js/scripts.js",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/template-news.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/functions/enqueue-admin-scripts.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/functions/options/header.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/functions/options/social.php",
+		"/Applications/MAMP/htdocs/ama/pagets/templates/sass/components/_global.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/functions/enqueue-admin-styles.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/functions/enqueue-theme-scripts.php",
+		"/Applications/MAMP/htdocs/ama/pagets/wp-content/themes/pagets/style.css",
+		"/Applications/MAMP/htdocs/ama/pagets/templates/sass/components/_forms.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/templates/sass/templates/_home.scss",
+		"/Applications/MAMP/htdocs/coyote/fast_forward/wp-content/themes/fast_forward/sass/helpers/mixins/_vertical-align.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/templates/sass/components/_navigation.scss",
+		"/Users/neilmills/Desktop/example.js",
+		"/Users/neilmills/Desktop/fullpage config.js",
+		"/Applications/MAMP/htdocs/ama/pagets/templates/sass/components/_header.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/templates/header.php",
+		"/Applications/MAMP/htdocs/ama/pagets/templates/sass/_variables.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/templates/professionals.php",
+		"/Applications/MAMP/htdocs/ama/pagets/templates/footer.php",
+		"/Applications/MAMP/htdocs/ama/pagets/templates/sass/templates/_contact.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/templates/sass/components/_footer.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/templates/sass/helpers/mixins/_wp-current-page-links.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/templates/sass/helpers/mixins/_inline-menu.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/templates/sass/templates/_professionals.scss",
+		"/Applications/MAMP/htdocs/ama/pagets/templates/register-login.php",
+		"/Applications/MAMP/htdocs/ama/pagets/templates/remembrance-garden.php",
+		"/Applications/MAMP/htdocs/ama/pagets/templates/sass/templates/_shop.scss"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
 		"height": 0.0,
 		"where_history":
 		[
+			"",
+			"/Applications/MAMP/htdocs/bolser/bolser-mobile-wp",
 			""
 		]
 	},
@@ -602,134 +696,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"woocommerce_before_shop_loop",
-			"<div class=\"woocommerce-message\">",
-			"View Basket",
-			"was successfully added to your basket",
-			"woocommerce-message",
-			"woocommerce_before_shop_loop",
-			"Showing all",
-			"woocommerce_before_shop_loop",
-			"No products were found ",
-			"<h1 class=\"page-title\">",
-			"class=\"archive",
-			"post-type-archive-product ",
-			"post-type-archive-product",
-			"post-type-archive-product ",
-			"testimonials",
-			"overflow",
-			"http://fastforward.localhost",
-			"half",
-			"issuu",
-			"issu",
-			".social",
-			"fruitful",
+			"ultimate",
+			"dl ",
+			"treatments-accordion",
+			"accordion",
+			"child-page-list",
+			"child",
+			"accordion",
+			"video",
+			"article-accordion",
+			"wp_mail",
+			"title",
+			"sendmail.php",
+			"#mobile-contact-panel",
+			"filters",
+			"240px",
+			".slick-dots",
+			"logo",
+			"#featured-list",
+			"#intro",
 			"intro",
-			"slider-footer",
-			"section",
+			"header",
+			"update",
+			"user_activation_key",
+			"hide",
+			"intro",
+			"dashed",
+			"ancestor",
+			"slick",
+			"?>",
+			"span",
+			"logo",
+			"figure",
+			"#intro",
+			"accordion",
+			"bread",
+			"propagation",
+			"#index",
+			"index",
+			"donate",
+			"newsletter",
+			"activateMobileMenu",
+			"donate",
+			"ref-docs",
+			"mobile",
 			"social",
-			"fruitful",
-			"http://fastforward.localhost",
-			"32px",
-			"32",
-			".button",
-			"gravityforms",
-			"gravityforms.js",
-			"header",
-			"18px",
-			"20px",
-			"header",
-			"overflow",
-			"<a href=\"~altinetco/build/",
-			"action=\"/build/",
-			"<a href=\"/build/",
-			"wrap",
-			"clearfix",
+			"activateMobileMenu",
+			"footer_logo_1_attachment_id",
+			"$menuParentLinks",
+			"mobile-prev",
+			"sub-menu",
+			"$menuParentLinks",
+			"sub-menu",
+			"menu-item-has-children",
+			"$menuParentLinks",
+			"sub-menu",
 			"aside",
-			"class=\"partner\"",
-			"wp-current",
-			".page-contribute ",
-			"height: auto !important",
-			".grid-item.two-by-two",
-			"height: auto",
-			"isotope",
-			"img",
-			"id=\"games\"",
-			"featured-game",
-			"home",
-			"play",
-			"feature",
-			"bar_box",
-			".expand_menu",
-			"outer_nav",
-			"nav",
-			"overflow",
-			"#outer_nav",
-			"media",
-			".home-slider-wrapper",
-			"outer_body_container",
-			".green",
-			"outer_nav",
-			"Games",
-			"titan",
-			"console",
-			"zoomContainer",
-			"zoomWindow",
-			"<script",
-			"text",
-			"transition",
-			"trans",
+			"image",
+			"http://pagets.localhost",
+			"carousel",
+			"button",
+			"more-posts",
+			"Person",
+			"people",
+			".post-list",
+			"post-list",
+			"newsletter",
+			"treatment",
+			"_request",
+			"document",
+			"dashed",
+			"selectBox",
+			"treatment",
+			"banner",
+			"dc_theme",
+			"sub-nav",
+			"case-studies",
+			"Case Studies",
+			"Case Study",
+			"casestudies",
+			".accordion",
+			"accordion",
+			"br_theme",
+			"Article",
+			"enlightenment",
+			"dashed-list",
+			"arrows",
+			"column",
+			"masonry",
+			"selectBox",
+			"save_theme_settings",
+			"1",
+			"('body')",
+			"post-list",
+			"footer",
+			"intro",
+			"signposts",
+			"span",
+			"ama",
+			"#intro",
+			"ama",
+			"footer",
+			"dots",
+			"arrows",
+			"newsletter",
+			"black",
+			"contact",
+			"secondary-nav",
+			"current-menu-item",
 			"current",
-			"btn",
-			"_btn",
-			"server-errors",
-			"Email is already taken\n",
-			"	\n",
-			"Email is already taken.",
-			"Entry encountered errors when saving",
-			"ul,",
-			"ul",
-			"your_points",
-			".header_content",
-			"counter_container",
-			"btn_text",
-			"sticker h4",
-			".btn_text",
-			".header-account-wrapper",
-			".sticker06",
-			"=",
-			".sticker06",
-			".sticker",
-			".gold",
-			".bronze .main_pannel",
-			"span.bronze",
-			".bronze",
-			"tabs",
-			".grad",
-			"pink",
-			"h2",
-			".bronze",
-			"sticker",
-			"bronze",
-			"heading",
-			"sticker",
-			"enter-competition",
-			"body_container",
-			"list",
-			"filter_content",
-			"list",
-			"filter_content",
-			"Quizzes",
-			"swf",
-			"carousel_sec",
-			"</xsl:template>",
-			"play",
-			".your_points",
-			"#account_details .your_points",
-			"counter",
-			".header-account-wrapper",
-			".spiral_home",
-			".home-slider-wrapper"
+			"initPopState",
+			"initCaseStudiesSubNav",
+			"refresh",
+			"navPushStateLinks",
+			"console",
+			"$navPushStateLinks",
+			":not",
+			"$navPushStateLinks",
+			"refresh",
+			"allPushStateLinks",
+			"initPushStateLinks",
+			"$navPushStateLinks",
+			"refresh",
+			"$.ajax",
+			"$.get",
+			"refreshPushLinkActions",
+			"refreshPushLinkActions ",
+			"pushStateLinks",
+			"setNavState"
 		],
 		"highlight": false,
 		"in_selection": false,

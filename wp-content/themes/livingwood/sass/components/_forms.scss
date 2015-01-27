@@ -1,0 +1,277 @@
+input[type="text"], 
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="file"],
+input[type="number"],
+select,
+textarea,
+.selectBox-dropdown{
+	line-height: 1;
+	height: 34px;
+	font-family: $avenir;   
+	font-weight:400;
+	background-color: #f1f1f1;
+	padding: 0 10px;
+	@include font-size(14);
+	border: none;
+	width: 100% !important;
+	@include transition (background-color .1s linear 0s);
+	&:focus{
+		background-color: #f1f1f1;
+	}
+	@include placeholder {
+    color: $grey;
+    @include opacity(1);
+  }
+}
+textarea{
+	padding: 10px;
+	height: auto;
+	resize: none;
+	height:100px;
+}
+input,textarea{
+	//@include box-shadow (inset 0px 2px 2px 0px rgba(0, 0, 0, 0.1));
+}
+.popup-form{
+	min-width:300px;
+	h3{
+		color: $blue;
+	}
+	li{
+		margin-bottom: 10px;
+	}
+	input.button{
+		border:none;
+		background-color:$grey;
+		@include border-radius(5px);
+		height:30px;
+		line-height: 1;
+		padding: 0 10px;
+		color: white;
+		text-align: center;
+		&:hover,&:active{
+			background-color: $blue;
+		}
+	}
+}
+.validation_error,.validation_message{
+	color: red !important;
+	margin-bottom: 10px;
+}
+.validation_message{
+	margin: 3px 0 0;
+}
+
+//selectbox
+
+
+.selectBox-dropdown{
+	position: relative;
+	cursor: pointer;
+	background-color: #f1f1f1;
+	&:hover, &:active, &:focus{
+		border-style: none;
+		//background-color: white;
+		text-decoration: none;
+	}
+	&.selectBox-menuShowing{
+    	background-color: darken($grey,5);
+    }
+    &.selectBox-menuShowing-bottom{
+
+    }
+    &.selectBox-menuShowing-top{
+    	
+    }
+	.selectBox-label{
+		@include font-size(14);
+		display: block !important;
+		font-family: $avenir;
+		color: $grey;
+		height:34px;
+		text-align: left;
+		line-height: 34px;
+
+	}
+	.selectBox-arrow{
+		width: 24px;
+		height:24px;
+		@include border-radius(50%);
+		background-color: $orange;
+		background-image:url('../images/arrow-down.png');
+		background-position: center center;
+		background-size: 50% auto;
+		background-repeat: no-repeat;
+		margin-top: -12px;
+		right:12px;
+		display: block;
+		@include abs-pos(50%,12px,auto,auto);
+	}
+}
+.selectBox-dropdown-menu {
+    position: absolute;
+    z-index: 99999;
+    max-height: 200px;
+    min-height: 1em;
+    background: white !important;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    @include box-shadow(0 2px 6px rgba(0, 0, 0, .2));
+	&.selectBox-options{
+		li,a{
+			list-style: none;
+    		display: block;
+    		cursor: default;
+    		padding: 0;
+    		margin: 0;
+			text-align:left;
+		}
+		li{
+			&.selectBox-hover a {
+    			background-color: #f7f7f7;
+    			text-decoration: none;
+    		}
+    		&.selectBox-selected a{
+    			//background-color: $green;
+    		}
+		}
+		a{
+			font-family: $avenir;
+			@include font-size(15);
+			padding: 4px 10px;
+		}
+		&.selectBox-options-top{
+    		border-bottom:none;
+			margin-top:1px;
+		}
+		&.selectBox-options-bottom{
+
+		}
+		&.selectBox-optgroup {
+    		color: #666;
+    		background: #EEE;
+    		font-weight: bold;
+    		line-height: 1.5;
+    		padding: 0 .3em;
+    		white-space: nowrap;
+		}
+	}
+}
+.selectBox-inline { 
+    min-width: 150px;
+    outline: none;
+    border: solid 1px #BBB;
+    background: #FFF;
+    display: inline-block;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    overflow: auto;
+}
+
+
+//gravity forms
+
+.gform_wrapper{
+	margin:0;
+	.gform_body{
+		@extend %clearfix;
+	}
+	.gform_footer{
+		margin:10px 0 0;
+		.button{
+			float:right;
+		}
+		a{
+			float:left;
+			display: inline-block;
+			height:40px;
+			line-height: 40px;
+		}
+	}
+	.clear-multi{
+		@extend %clearfix;
+	}
+	.ginput_complex{
+		label{
+			font-family: $avenir;
+		}
+	}
+	.gfield_date_dropdown_day,.gfield_date_dropdown_month,.gfield_date_dropdown_year{
+		width:25%;
+		margin-right:2%;
+		float:left;
+		select{
+			width: 100%;
+		}
+	}
+	ul{
+		list-style-type: none;
+		&.gfield_checkbox{
+			margin: 20px 0;
+			li{
+				@extend %clearfix;
+			}
+			label,input{
+				float:left;
+				margin:0;
+				line-height: 1;
+				margin-right: 10px;
+			}
+		}
+	}
+	li{
+		padding: 0 !important;
+		margin-bottom: 10px;
+		list-style-type: none;
+		
+		&:before{
+			background:none !important;
+		}
+		&#field_1_5{
+			@include span-columns(12);
+		}
+		&.no-label{
+			.gfield_label{
+				display: none;
+			}
+		}
+		&.half{
+			select,input{
+				width: 50%;
+			}
+		}
+		&.small{
+			select,input{
+				width: 25%;
+			}
+		}
+	}
+	label{
+		font-family: $avenir;
+		@include font-size(15);
+		margin-bottom: 4px;
+		display: block;
+		.gfield_required{
+			color: $orange;
+			padding-left:4px;
+		}
+	}
+	.recaptcha_input_area{
+		input{
+			border: none !important;
+		}
+	}
+	.recaptchatable a, .recaptchatable a:hover{
+		color: $grey !important;
+		@include font-size(12);
+	}
+	select{
+		width: 100% !important;
+		@media screen and (max-width: $break-small) {
+			width:100%;
+		}
+	}	
+}

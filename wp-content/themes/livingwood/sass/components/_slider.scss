@@ -1,0 +1,115 @@
+.slider{
+	width:100%;
+	height:auto;
+	position: relative;
+	#opening-elements &{
+		width:90%;
+		margin:0 auto;
+	}
+	.home &{
+		position:fixed;
+		left:0;
+		top:0;
+		bottom:0;
+	}
+	.slick-list,.slick-track,.slick-slide{
+		//width: 100%;
+		//height:100%;
+		display: block;
+	}
+	.slick-list{
+		position: relative;
+		width:100%;
+		display: block;
+		overflow:hidden;
+		@extend .clearfix;
+		#opening-element-carousel &{
+			padding:0 20px;
+		}
+		
+	}
+	.slick-track{
+		//padding-top: 197px;
+		//@extend %clearfix;
+		#opening-elements &{
+			height:74px;
+			overflow: hidden;
+		}
+	}
+	.slick-slide{
+		float:left;
+		img{
+			display: block;
+		}
+		@include bg-cover;
+		img{
+			@include fit-grid(width);
+		}
+		#opening-element-carousel &{
+			float:left;   
+			width:95px;
+		}
+		#news-archive-carousel &{
+			@include span-columns(4);
+		}
+	}
+	.slick-prev,.slick-next{
+		margin-top:-20px;
+		width:40px;
+		height:40px;
+		background-color: $orange;
+		@include border-radius(50%);
+		border:none;
+		background-image:url('../images/prev-arrow.png');
+		background-position: center center;
+		background-repeat:no-repeat;
+		@extend %ir;
+		&:hover,&:active{
+			background-color: $blue;
+		} 
+		#opening-elements &{
+			width:35px;
+			height:35px;
+		}
+	}
+	.slick-prev{
+		@include abs-pos(50%,auto,auto,-20px);
+		#opening-elements &{
+			left:-50px;
+		}
+	}
+	.slick-next{
+		@include abs-pos(50%,-20px,auto,auto);
+		background-image:url('../images/next-arrow.png');
+		#opening-elements &{
+			right:-50px;
+		}
+	}
+	.slick-dots{
+		text-align: center;
+		width:100%;
+		@include abs-pos(auto,auto,-40px,0);
+		li{
+			display: inline-block;
+			position: relative;
+			margin: 0 3px;
+			&.slick-active button{
+				background-color: $orange;
+			}
+		}
+		button{
+			//display: block;
+			width:11px;
+			height:11px;
+			@include border-radius(50%);
+			border:none;
+			@extend %ir;
+			background-color: #e2e3e4;
+			display: block;
+		}
+	}
+}
+#product-slider{
+	border:1px solid $light-grey;
+	margin-bottom:40px;
+}

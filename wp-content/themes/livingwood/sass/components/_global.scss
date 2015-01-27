@@ -1,0 +1,584 @@
+.section{
+	@extend .clearfix;
+	margin-bottom: $box-padding;
+	@include span-columns(12); 
+}
+.signpost{
+	background-color: white;
+	@extend .clearfix;
+	.signpost-inner{
+		@extend .clearfix;
+		padding: $box-padding;
+		@media screen and (max-width: $break-large) {
+			padding:15px;
+		}
+	}
+	h3{
+		margin-bottom: 15px;
+
+	}
+	p{
+		line-height: 135%;
+	}
+	&.form{
+		padding:0;
+		@include abs-pos(0,0,0,auto);
+		@media screen and (max-width: $break-medium) {
+			position:relative;
+			@include span-columns(10); 
+			@include shift(1);
+			left:auto;
+			right:auto;
+			top:auto;
+		}
+	}
+	#signposts &, #products &{
+		@include span-columns(4); 
+		@media screen and (max-width: $break-small) {
+			@include span-columns(6);  
+		}
+	}
+}
+.feature-link, .signpost{
+	background-color:white;
+	display: block; 
+	position:relative;
+	width:100%;
+	height:auto;
+	@media screen and (max-width: $break-xsmall) {
+		margin-bottom:15px;
+	}
+	&.quote{
+		@include span-columns(10);
+		@include shift(1);
+		@media screen and (max-width: $break-medium) {
+			@include shift(0);
+			@include span-columns(12);
+		}
+	}
+	//min-height:384px;
+	padding-bottom: 40px;
+	figure{
+		background-color:white;
+		width:100%;
+		position:relative;
+		overflow: hidden;
+		&:before{
+			content:"";
+			//padding-top: 56.25%;
+			padding-top: 60%;
+			display: block;
+			#products &{
+				padding:0;
+			}
+		}
+		img{
+			@include fit-grid(width);
+			@include abs-pos(0,auto,auto,0);
+			display: block;
+			#products &{
+				position: relative;
+			}
+		}
+	}
+	&.static{
+		padding-bottom:0;
+	}
+	//border:1px solid white;
+	&:link,&:visited{
+		color:$grey;	
+	}
+	#products &{
+		background-color: $blue;
+		@include omega(3n);
+		margin-top: 2.35765%;
+	}
+	.inner{
+		padding:30px;
+	}
+	h3{
+		margin-bottom: 12px;
+		#products &{
+			font-weight: 700;
+		}
+		#news-archive &,#news-archive-carousel &{
+			@include font-size(22);
+			line-height: 120%;
+		}
+	}
+	p{
+		#news-archive &,#news-archive-carousel &{
+			@include font-size(14);
+			line-height: 120%;
+		}
+	}
+	.feature-content{
+		@include transition(all 0.1s ease-in-out);
+		@include abs-pos(auto,0,43px,0);
+		background-color: white;
+		padding: 30px;
+		@media screen and (max-width: $break-large) {
+   			padding: 20px 15px 30px;
+    	}
+		h3{
+			margin-bottom: 0px;
+		}
+		p{
+			margin-top:20px;
+			display: none;
+			line-height: 120%;
+		}
+		span.logo{
+			@include abs-pos(15px,20px,auto,auto);
+			display: blue;
+			width:200px;
+			height:80px;
+			img{
+				@include fit-grid(height);
+				@include abs-pos(0,0,auto,auto);
+			}
+			@media screen and (max-width: $break-large) {
+				width:80px;
+				right:10px;
+			}
+		}
+		#products &{
+			background-color: $blue;
+			h3,p{
+				color: white;
+			}
+		}
+	}
+	.feature-icon-wrap{
+		@include abs-pos(auto,0,0,0);
+		height:43px;
+		@extend %full-width;
+		background-color: white;
+		span{
+			height:43px;
+			line-height: 43px;
+			display: block;
+			@include abs-pos(auto,0,0,auto);
+			color:$grey;
+			margin-right:53px;
+			#products &{
+				color: white;
+			}
+			&.feature-icon{
+				@include transition(background-color 0.3s ease-in-out);
+				width:43px;
+				background-color: white;
+				margin:0;
+				background-image: url('../images/link-arrow.png');
+				background-position: left top;
+				background-position: no-repeat;
+				#products &{
+					background-color: transparent;
+				}
+			}
+		}
+		#products &{
+			background-color: $blue;
+		}
+	}
+	
+	&:hover,&:active{
+		.feature-icon-wrap{
+			span.feature-icon{
+				background-color: $orange;
+				background-position: right top;
+				#products &{
+					background-color: $orange;
+				}
+			}
+		}
+		.feature-content{
+			//top:185px;
+			p{
+				display: block;
+			}
+		}
+	}
+	&.promo{
+		border:none;
+		.feature-content{
+			background-color: $blue;
+		background-image:url('../images/promo-box-bg.jpg');
+		background-position: left bottom;
+		background-repeat: no-repeat;
+		bottom: 0;
+		padding-bottom: 73px;
+		}
+		h2,h3,p{
+			color: white;
+		}
+		.feature-icon-wrap{
+			background-color: transparent;
+			span{
+				color: white;
+			}
+			.feature-icon{
+				background-color: transparent;
+				background-position: right top;
+			}
+		}
+	}
+	#signposts &, #products &,#news-archive &{
+		@include span-columns(4); 
+		@media screen and (max-width: $break-medium) {
+			@include span-columns(6);
+			&.form{
+				@include span-columns(6);
+				@include shift(0);
+				padding-bottom: 60px;
+				@media screen and (max-width: $break-small) {
+					@include span-columns(12);
+					@include shift(0);
+				}
+			}
+			&.quote{
+				@include span-columns(10);
+				@include shift(1);
+				@media screen and (max-width: $break-small) {
+					@include span-columns(12);
+					@include shift(0);
+				}
+			}
+			@include omega(2n);
+			margin-bottom:15px;
+		}
+		@media screen and (max-width: $break-xsmall) {
+			@include span-columns(12); 
+		}
+	}
+	#news-archive .lead-stories &{
+		@include span-columns(6); 
+		@media screen and (max-width: $break-small) {
+			@include span-columns(12); 
+		}
+	}
+}
+
+blockquote{
+	padding:30px 55px 0 55px;
+	p{
+		@include font-size(22);
+		@media screen and (max-width: $break-medium) {
+			@include font-size(20);
+		}
+		font-family: $oswald;
+		font-weight: 700;
+		color: $blue;
+		line-height: 135%;
+		position: relative;
+		margin-bottom: 15px;
+		&:before,&:after{
+			content:"";
+			width:30px;
+			height:23px;
+			display:inline-block;
+			background-image:url('../images/quotes-open.jpg');
+			background-position: left top;
+			background-repeat: no-repeat;
+			margin-left: 8px;
+			@include abs-pos(0,auto,auto,-45px)
+		}
+		&:after{
+			background-image:url('../images/quotes-close.jpg');
+			@include abs-pos(auto,-35px,0,auto);
+			margin:0;
+		}
+	}
+}
+form#call-back{
+	.gform_footer{
+		@include abs-pos(auto,0,0,0);
+	}
+	@media screen and (max-width: $break-medium) {
+		p{
+			margin-bottom: 10px;
+		}
+		input.medium{
+			height: 30px;
+		}
+	}
+	li{
+		margin-bottom: 6px;
+	}
+}
+.button{
+	@include transition(all 0.3s ease-in-out);
+	display:inline-block;
+	position: relative;
+	height:42px;
+	line-height:42px;
+	color: white !important;
+	background-color: $orange;
+	color: white;
+	font-family: $oswald;
+	text-transform: uppercase;
+	@include font-size(18);
+	font-weight:700;
+	border:none;
+	padding:0 38px 0 15px;
+	background-image:url('../images/arrow-white.png');
+	background-position:right center;
+	background-repeat: no-repeat;
+	&:hover,&:active{
+		background-color:$blue;
+	}
+}
+#breadcrumb-wrap{
+	@include font-size(12);
+	text-align: center;
+	@extend %clearfix;
+	margin-bottom: 40px;
+}
+#breadcrumb{
+	@include font-size(12);
+	text-align: center;
+	display: inline-block; 
+	background-color: white;
+	position: relative;
+	height:30px;
+	padding:0 5px;
+	line-height: 30px;
+	margin: 0 auto;
+	&:before,&:after{
+		content:"";
+		width:30px;
+		height:30px;
+		background-image: url('../images/breadcrumb-left.png');
+		background-repeat: no-repeat;
+		background-position: left top;
+		@include abs-pos(0,auto,auto,-30px);
+	}
+	&:after{
+		background-image: url('../images/breadcrumb-right.png');
+		right:-30px;
+		left:auto;
+	}
+	a{
+		&:link,&:visited{
+			//color: $light-blue;
+		}
+	}
+}
+#page-title{
+	//background-color: rgba(8,80,143,.9);
+	background-color: $blue;
+	position: relative;
+	.banner &{
+		@include abs-pos(0,auto,auto,0);
+	}
+	z-index:10;
+	@extend %full-width;
+	padding:14px 0 20px;
+	color: white; 
+	h1{
+		text-transform: uppercase;
+		color: white;
+		@include font-size(32);
+		margin:0;
+		@media screen and (max-width: $break-xlarge) {
+			@include font-size(28);
+		}
+	}
+	.container{
+		padding:0 22px;
+	}
+}
+#banner-image{
+	@extend %full-width;
+	height:400px;
+	background-color: $grey;
+	position: relative;
+	display: block;
+	border-bottom:4px solid white;
+	@include bg-cover;
+	@media screen and (max-width: $break-xlarge) {
+		width:100%;
+	}
+	//margin-bottom:$box-padding;
+}
+#intro{
+	padding: $box-padding;
+	@media screen and (max-width: $break-small) {
+		padding: 15px;
+	}
+	@include span-columns(12);
+	background-color: white;
+	@extend %clearfix; 
+	div.column{
+		@include span-columns(6);
+		@media screen and (max-width: $break-small) {
+			@include span-columns(12);
+		}
+		&.article{
+			@include span-columns(9);
+			@media screen and (max-width: $break-small) {
+				@include span-columns(12);
+			}
+		}
+		.contact &{
+			@include span-columns(7);
+			@media screen and (max-width: $break-small) {
+				@include span-columns(12);
+			}
+		}
+	}
+	aside{
+		@include span-columns(4);
+		.contact &{
+			@include shift(1);
+		}
+	}
+	margin: 0 0 $box-padding;
+	&.product{
+		.column:first-child{
+			padding-right: 20px;
+		}
+		@media screen and (max-width: $break-medium) {
+			.column{
+				@include span-columns(12);
+			}
+			#product-slider{
+				padding: 20px 10% 10px;
+			}
+		}
+	}
+	&.image{
+		div{
+			@include span-columns(7);
+			@media screen and (max-width: $break-small) {
+				@include span-columns(12);
+				@include omega; 
+				padding:0 0 15px;
+			}
+			padding-right:40px;
+			&:last-child{
+				@include span-columns(5);
+				@media screen and (max-width: $break-small) {
+					@include span-columns(12);
+				}
+				padding:0;
+				img{
+					@include fit-grid(width);
+					display: block;
+				}
+			}
+		}
+	}
+}
+.feature-link{
+	padding-bottom:153px;
+	@media screen and (max-width: $break-large) {
+		padding-bottom:133px;
+	}
+	&.fixed{
+		padding-bottom:0;
+	}
+	#products &{
+		padding-bottom: 130px;
+		@media screen and (max-width: $break-large) {
+			padding-bottom: 120px;
+		}
+	}
+}
+#signposts,#products{
+	@extend .clearfix;
+	margin-bottom: $box-padding;
+}
+#products{
+	margin-bottom:$box-padding;
+	@extend .clearfix;
+}
+.sub-block{
+	@extend %clearfix;
+	background-color: white;
+	padding: $box-padding;
+	@media screen and (max-width: $break-large) {
+		padding: 30px 30px 0;
+	}
+	@media screen and (max-width: $break-small) {
+		padding: 15px 15px 0;
+	}
+	margin: 0  0 $box-padding;
+	div{
+		@include span-columns(6);
+		@media screen and (max-width: $break-large) {
+			@include span-columns(12);
+			padding-bottom: 30px;
+		}
+	}
+}
+#signposts{
+	width:100%;
+	position: relative;
+	@include span-columns(12);
+	@extend .clearfix;
+	//padding-top:30px;
+}
+.centered{
+	width:100%;
+	padding: 0 20%;
+	@media screen and (max-width: $break-medium) {
+		padding: 0 10%;
+	}
+	@media screen and (max-width: $break-xsmall) {
+		padding:0 20px;
+	}
+	display: block;
+	//@include span-columns(8);
+	//@include shift(2);
+	@extend %clearfix;
+	text-align: center;
+	//padding:0 0 50px;
+	position: relative;
+	//background:url('../images/down-arrow-circle.png') center bottom no-repeat;
+	margin-bottom:50px;
+	p:last-child{
+		margin-bottom: 0;
+	}
+	&.anchor{
+		padding-bottom:60px;
+	}
+}
+a.anchor-arrow{
+	@include abs-pos(auto,auto,0,50%);
+	display: block;
+	width:54px;
+	height:54px;
+	@extend %ir;
+	margin-left: -37px;
+	background:url('../images/arrow-down-circle.png') center center no-repeat;
+	&.up{
+		background:url('../images/arrow-up-circle.png') center center no-repeat;
+		@include abs-pos(0,auto,auto,50%);
+	}
+}
+.anchor-link{
+	display:block;
+	text-align: center;
+	width: 100%;
+	height: 54px;
+	position: relative;
+	@extend %clearfix;
+	margin-bottom: 30px;
+}
+footer.load-more{
+	@include span-columns(12);
+	text-align: center;
+	a{
+		&:link,&:visited{
+			display: inline-block;
+			margin:0 auto;
+			font-family: $oswald;
+			font-weight: 700;
+			color: $dark-grey;
+			margin: 30px 0 30px;
+			padding: 0 0 60px;
+			background:url('../images/arrow-down-circle.png') center bottom no-repeat;
+		}
+	}
+}

@@ -1,0 +1,49 @@
+.home{
+	height:100%;
+	width:100%;
+}
+
+.home{
+	#main{
+		@extend %clearfix;
+		padding-top:106px;
+		padding-bottom:50px;
+		background-color:#000;
+	}
+	#content{
+		@include span-columns(8);
+		@include shift(4);
+		@media screen and (max-width: $break-large) {
+			@include span-columns(10);
+			@include shift(1);
+		}
+		@media screen and (max-width: $break-xsmall) {
+			@include span-columns(12);
+			@include shift(0);
+		}
+		position: relative;
+		z-index:998;
+		@extend %clearfix;
+	}
+	#intro{
+		h2{
+			text-align: left;
+		}
+		p.big{
+			margin-bottom: 20px;
+		}
+	}
+	.feature-link{
+		@include span-columns(6);
+		@include omega(2n);
+		@media screen and (max-width: $break-small) {
+			@include span-columns(12);
+		}
+		margin-bottom: 1.75788%;
+		&.quote{
+			@include span-columns(12);
+			margin:0;
+			padding-bottom:50px;
+		}
+	}
+}

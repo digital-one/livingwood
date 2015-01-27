@@ -1,0 +1,46 @@
+#technical{
+	@extend .clearfix;
+	margin-bottom: 60px;
+	.signpost{
+		padding:0;
+		min-height:190px;
+	}
+}
+#technical-information{
+	@include span-columns(5);
+	@media screen and (max-width: $break-small) {
+		@include span-columns(12);
+	}
+}
+#opening-elements{
+	@include span-columns(7);
+	h4{
+		margin-bottom: 30px;
+	}
+	@media screen and (max-width: $break-small) {
+		@include span-columns(12);
+	}
+}
+#file-dl{
+	position:relative;
+	.gform_body{
+		padding-right: 125px;
+		li{
+			margin:0;
+		}
+		input{
+			height:42px;
+			line-height: 1;
+		}
+	}
+	.gform_footer{
+		@include abs-pos(0,0,auto,auto);
+		margin:0;
+	}
+}
+#product-gallery{
+	padding: $box-padding;
+	background-color: white;
+	@include span-columns(6);
+	@include shift(3);
+}
